@@ -72,7 +72,7 @@ nav li a:hover {
     z-index: 1000;
     position: fixed;
     top: 0.5rem;
-    right: 2rem;
+    right: 1rem;
 }
 
 
@@ -582,6 +582,11 @@ footer > .copyright {
     nav {
         font-size: 13px;
         padding: 1rem 1rem;
+        position: fixed;
+        top: 0;
+        width: 100%;
+        background-color: white;
+        z-index: 2;
     }
 
     /*================ Contribution ===============*/
