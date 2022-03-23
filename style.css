@@ -602,7 +602,7 @@ footer > .copyright {
     }
 
     .menu{
-        opacity: 0;
+        display: none;
         position: absolute;
         top: 5rem;
         z-index: 999;
@@ -622,7 +622,7 @@ footer > .copyright {
     }
 
     .menu.activated{
-        opacity: 1;
+        display: block;
     }
 
     .theme-toggle-btn.activated .close-menu{
